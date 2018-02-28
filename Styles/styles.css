@@ -1,0 +1,71 @@
+#body {
+  text-align: center;
+  font-family: Helvetica,sans-serif;
+  }
+
+/* ==================
+HEADER LINKS
+=================== */
+
+/* --CREATE A STICKY NAV BAR--
+  position: sticky;
+  top: 0;
+*/
+
+#main-logo {
+  max-height: 200px;
+}
+
+#header-nav {
+  list-style-type: none;
+  display: block;
+  margin: auto;
+  width: fit-content;
+  z-index: 7;
+  background-color: white;
+}
+
+li {
+  display: inline-block;
+  background-color: white;
+  margin: auto -4px;
+}
+
+li a {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+a:hover, a:active {
+  background-color: #EAECEE;
+  color: white;
+}
+
+/* ==================
+MAIN BODY CONTENT
+=================== */
+
+main {
+  background-color: #EAECEE;
+  padding: 10px 10px;
+}
+
+/* ==================
+FOOTER INFROMATION
+=================== */
+
+footer {
+  padding-top: 20px;
+}
+
+footer img {
+  height: 75px;
+  width: auto;
+}
+
+#linkedin {
+  height: 30px;
+  width: auto;
+}

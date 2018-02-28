@@ -1,0 +1,17 @@
+.menu-grid {
+  position: relative;
+  margin: 10px auto;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px 75px;
+}
+
+.menu-item {
+position: relative;
+background-color: white;
+height: 400px;
+width: 100%;
+border: black solid 3px;
+padding: 5px 10px;
+}

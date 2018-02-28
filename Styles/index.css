@@ -1,0 +1,42 @@
+#nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 7;
+  background-color: white;
+}
+
+.container {
+  position: relative;
+  margin: 10px 10px;
+  border: 1px solid black;
+  width: 100%;
+}
+
+.container img {
+  width: 100%;
+  opacity: .4;
+}
+
+.text-section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+
+#contact-us {
+  background-color: #154360;
+  color: white;
+  font-size: 50px;
+  border: black solid 5px;
+  border-radius: 10px;
+  position: sticky;
+  bottom: 0px;
+  /* margin: 20px 0px; */
+}
+
+#contact-us:hover {
+  background-color: green;
+}
