@@ -1,6 +1,8 @@
 PERSONAL:
--familiarize self with command line and navigating directories
+- familiarize self with command line and navigating directories
 - familiarize self with git commands
 
 SITE:
 - Fix words sizing
+- Adjust item sizes (especially image header) so they scale properly. Perhaps @media attributes files with different CSS files?
+- Figure out how to achieve same results with background image, so it can be used with opacity

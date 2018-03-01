@@ -1,28 +1,28 @@
-#nav {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0px;
-  z-index: 7;
-  background-color: white;
-}
-
 .container {
-  position: relative;
-  margin: 10px 10px;
-  border: 1px solid black;
+  margin: auto;
   width: 100%;
+  padding: 50px;
+  border: 1px solid black;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.container img {
-  width: 100%;
-  opacity: .4;
+.first-section {
+  background-image: url(../images/PH/PH-background1.jpg);
+}
+
+.second-section {
+  background-image: url(../images/PH/PH-background2.jpg);
+}
+
+.third-section {
+  background-image: url(../images/PH/PH-background3.jpg);
 }
 
 .text-section {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  width: 50%;
+  margin:auto;
   color: black;
 }
 

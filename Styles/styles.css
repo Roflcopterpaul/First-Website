@@ -12,8 +12,23 @@ HEADER LINKS
   top: 0;
 */
 
+header img {
+  padding-bottom: 1px;
+}
+
 #main-logo {
   max-height: 200px;
+  margin:auto;
+  position: center;
+  padding: 0 20px;
+}
+
+#nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 7;
+  background-color: white;
 }
 
 #header-nav {
@@ -50,6 +65,8 @@ MAIN BODY CONTENT
 main {
   background-color: #EAECEE;
   padding: 10px 10px;
+  width: fit-content;
+  margin: auto;
 }
 
 /* ==================
