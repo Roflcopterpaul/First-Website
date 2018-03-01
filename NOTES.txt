@@ -1,0 +1,12 @@
+GIT COMMANDS:
+git add *                                                                       //add all edits/files into staging//
+git commit -m "words"                                                           //commit all staged changes//
+git commit -am "words"                                                          //stages AND commits all changes//
+git push (repository) (branch) [optional]                                       //pushes all committed changes//
+git pull                                                                        //pulls a copy from the GitHub master branch//
+git branch -vv                                                                  //shows all branch information//
+git log                                                                         //shows all commit information//
+git status                                                                      //shows current status of all files in git folder//
+git diff                                                                        //shows what you have edited//
+git remote -vv                                                                  //shows list of GitHub links//
+git clone (name) [optional]                                                     //clone link from GitHub//

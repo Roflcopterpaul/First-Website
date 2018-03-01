@@ -1,0 +1,6 @@
+PERSONAL:
+-familiarize self with command line and navigating directories
+- familiarize self with git commands
+
+SITE:
+- Fix words sizing
