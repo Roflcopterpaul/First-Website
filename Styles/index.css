@@ -1,8 +1,8 @@
 .container {
   margin: auto;
-  width: 100%;
+  margin-bottom: 10px;
+  width: fit-content;
   padding: 50px;
-  border: 1px solid black;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
